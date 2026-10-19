@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8693205074703972500}
   - component: {fileID: 23889090158120105}
   - component: {fileID: 936016768062762606}
+  - component: {fileID: 5767275639575389254}
   m_Layer: 0
   m_Name: Ball  1
   m_TagString: Player
@@ -149,23 +150,43 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2456399485423816142}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c1dc8da13ee271c41b8b69a097438636, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  startSpeed: 6
-  maxSpeed: 14
-  acceleration: 0.2
+  startSpeed: 29.6
+  maxSpeed: 46.4
+  acceleration: 2.63
   autoRun: 0
   cam: {fileID: 0}
-  jumpHeight: 3
+  jumpHeight: 4.87
   coyoteTime: 0.5
   jumpBufferTime: 0.5
-  fallMultiplier: 2.5
+  fallMultiplier: 0.14
   visual: {fileID: 0}
-  squashAmount: 0.7
+  squashAmount: 13.54
   squashTime: 0.15
+--- !u!114 &5767275639575389254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2456399485423816142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89c25dac3d80084479f0a143116e82f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BallRoll
+  maxSpeed: 8
+  acceleration: 35
+  jumpHeight: 2
+  coyoteTime: 0.12
+  jumpBufferTime: 0.12
+  fallMultiplier: 2.5
+  popAmount: 0.8
+  popTime: 0.15
 --- !u!1 &7622741786589796950
 GameObject:
   m_ObjectHideFlags: 0
