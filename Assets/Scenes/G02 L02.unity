@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 112
       objectReference: {fileID: 0}
+    - target: {fileID: 936016768062762606, guid: 01392b15e458554439362f6d2bae0609, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 991297491}
     - target: {fileID: 2456399485423816142, guid: 01392b15e458554439362f6d2bae0609, type: 3}
       propertyPath: m_Name
       value: Ball  1

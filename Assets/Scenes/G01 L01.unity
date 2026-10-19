@@ -942,6 +942,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2269608114502649345, guid: 508891d48eaceef4c8e3a1ea658acf06, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 408399806}
+    - target: {fileID: 2269608114502649345, guid: 508891d48eaceef4c8e3a1ea658acf06, type: 3}
+      propertyPath: autoRun
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7125043304116672145, guid: 508891d48eaceef4c8e3a1ea658acf06, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1578,6 +1586,7 @@ MeshFilter:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 408399806}
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 5550822688529165362}
@@ -1585,4 +1594,3 @@ SceneRoots:
   - {fileID: 467578472801776816}
   - {fileID: 4167066584919580155}
   - {fileID: 8085024505248271762}
-  - {fileID: 408399806}

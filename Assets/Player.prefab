@@ -187,14 +187,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1dc8da13ee271c41b8b69a097438636, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  moveSpeed: 6
+  startSpeed: 6
+  maxSpeed: 14
+  acceleration: 0.2
+  autoRun: 1
   cam: {fileID: 0}
   jumpHeight: 2
-  coyoteTime: 0.12
-  jumpBufferTime: 0.12
+  coyoteTime: 0.5
+  jumpBufferTime: 0.5
   fallMultiplier: 2.5
-  groundCheck: {fileID: 245560699615289184}
-  groundRadius: 0.25
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 0
+  visual: {fileID: 0}
+  squashAmount: 0.7
+  squashTime: 0.15

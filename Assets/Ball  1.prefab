@@ -157,11 +157,15 @@ MonoBehaviour:
   startSpeed: 6
   maxSpeed: 14
   acceleration: 0.2
+  autoRun: 0
   cam: {fileID: 0}
   jumpHeight: 3
-  coyoteTime: 0.12
-  jumpBufferTime: 0.12
+  coyoteTime: 0.5
+  jumpBufferTime: 0.5
   fallMultiplier: 2.5
+  visual: {fileID: 0}
+  squashAmount: 0.7
+  squashTime: 0.15
 --- !u!1 &7622741786589796950
 GameObject:
   m_ObjectHideFlags: 0
