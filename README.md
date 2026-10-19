@@ -18,7 +18,7 @@ Course: CS464 Game Development
 ---
 
 ## Level 1 (Runner)
-**What this level asks:** The level has a very small track for runner which include a little obstacles.
+**What this level is:** The level has a very small track for runner which include a little obstacles.
 
 **Screenshot:**
 ![Level Screenshot](ss1.png)
@@ -34,7 +34,7 @@ Course: CS464 Game Development
 ---
 
 ## Level 2 (Runner)
-**What this level asks:** This level is little bigger than level 1 and have one more type of obstacle.
+**What this level is:** This level is little bigger than level 1 and have one more type of obstacle.
 
 **Screenshot:**
 
@@ -51,7 +51,7 @@ Course: CS464 Game Development
 ---
 
 ## Level 3 (Runner)
-**What this level asks:** This is the level 3 for the game which have multiple obstacles, longer track then level 1 & level 2 and also have coins to engage player.
+**What this level is:** This is the level 3 for the game which have multiple obstacles, longer track then level 1 & level 2 and also have coins to engage player.
 
 **Screenshot:**
 
@@ -68,7 +68,7 @@ Course: CS464 Game Development
 ---
 
 ## Level 4 (Rolling Ball)
-**What this level asks:** This is the rolling ball level include curly track and obstacles which our ball have to pass in order to complete the level.
+**What this level is:** This is the rolling ball level include curly track and obstacles which our ball have to pass in order to complete the level.
 
 **Screenshot:**
 
@@ -85,7 +85,7 @@ Course: CS464 Game Development
 ---
 
 ## Level 5 (Rolling Ball)
-**What this level asks:** This is the last level of our rolling ball game which have slopy, curly, gapped track (ball has to jump here to pass) and multiple obstacle walls that our ball has to pass for level completion.
+**What this level is:** This is the last level of our rolling ball game which have slopy, curly, gapped track (ball has to jump here to pass) and multiple obstacle walls that our ball has to pass for level completion.
 
 **Screenshot:**
 
